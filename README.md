@@ -148,8 +148,6 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
 - Create standard of Labelling 
 - Comparison to other versions of YoloV5 (YoloV5m,  YoloV5x, ...)
 
----------------------------------------------------
-
 # Reference:
 - Object detection:
   - https://medium.com/zylapp/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852
@@ -168,7 +166,7 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
 ---------------------------------------------------
 
 # Capybarista Team member:
-- ธีรนาถ ศรีงามดี
+- Theeranat Sringamdee 641042014 
 - พัชรพฤกษ์ วัฒนางกูร
 - Nattapong Thanngam_6310422089 
 - สุกิจ วาณิชฤดี_6310422092 
@@ -176,4 +174,5 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
 
 - 6410414001 
 - 6410412007 
-- 6410412014 
+
+---------------------------------------------------
