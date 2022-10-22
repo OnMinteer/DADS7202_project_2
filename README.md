@@ -176,6 +176,6 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
 - 6410412007 
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/NattapongTH/DADS7202_project_2/blob/main/pic/Capybarista.jpg"> </span>
+    <img width="80%" src="https://github.com/NattapongTH/DADS7202_project_2/blob/main/pic/Capybarista2.jpg"> </span>
 
 ---------------------------------------------------
