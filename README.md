@@ -137,7 +137,7 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
    - Score: unfreeze layer model  > freeze layer model
    - Score: allow to update weight model  > No update weight model
    - Running time: unfreeze layer model  > freeze layer model
-   - Score: allow to update weight model  ~ No update weight model
+   - Running time: allow to update weight model  ~ No update weight model
 
 
 # Next step:
