@@ -151,9 +151,19 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
 ---------------------------------------------------
 
 # Reference:
-- Yolov5: https://github.com/ultralytics/yolov5
-
-
+- Object detection:
+  - https://medium.com/zylapp/review-of-deep-learning-algorithms-for-object-detection-c1f3d437b852
+  - https://machinelearningmastery.com/object-recognition-with-deep-learning/
+  - https://medium.com/ml-research-lab/what-is-object-detection-51f9d872ece7
+- Yolov5: 
+  - https://docs.ultralytics.com/
+  - https://github.com/ultralytics/yolov5
+  - https://pypi.org/project/yolov5/
+- roboflow:
+  - https://roboflow.com/
+  - https://blog.streamlit.io/how-to-use-roboflow-and-streamlit-to-visualize-object-detection-output/
+- mAP defination
+  - https://towardsdatascience.com/map-mean-average-precision-might-confuse-you-5956f1bfa9e2
 
 ---------------------------------------------------
 
