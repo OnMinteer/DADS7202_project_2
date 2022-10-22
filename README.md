@@ -143,10 +143,12 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
 
 
 # Next step:
-- Add number of photos
+- Increase the number of images in the dataset to see if it improves prediction accuracy.
 - Use more features of image augmentation (Cutout, Grayscale, ...)
-- Create standard of Labelling 
+- Modify the labeling standard; for example, some images may only show the character's side or ears, making it difficult to detect.
 - Comparison to other versions of YoloV5 (YoloV5m,  YoloV5x, ...)
+- Unfreeze the parts of the head and neck separately to compare the results of the unfreezes.
+- Check and compare whether the results of models 1,2,5 and yoloV5 versions s,m, and x are the same.
 
 # Reference:
 - Object detection:
