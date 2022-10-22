@@ -164,8 +164,6 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
   - https://towardsdatascience.com/map-mean-average-precision-might-confuse-you-5956f1bfa9e2
 
 ---------------------------------------------------
-<p align="center" width="100%">
-    <img width="80%" src="https://github.com/NattapongTH/DADS7202_project_2/blob/main/pic/Capybarista.jpg"> </span>
 
 # Capybarista Team member:
 - Theeranat Sringamdee 641042014 
@@ -176,5 +174,8 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
 
 - 6410414001 
 - 6410412007 
+
+<p align="center" width="100%">
+    <img width="80%" src="https://github.com/NattapongTH/DADS7202_project_2/blob/main/pic/Capybarista.jpg"> </span>
 
 ---------------------------------------------------
