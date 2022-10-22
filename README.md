@@ -133,8 +133,8 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
     <img width="80%" src="https://github.com/NattapongTH/DADS7202_project_2/blob/main/pic/Running%20time.png"> </span>
 
 - Alternative model (Balance between score and running time) = Yolov5l - Weight True Freeze 10 
-   - Score drop ~15%
-   - Save time ~40%)
+   - Score drop = ~15%
+   - Save time = ~40%
 - Observation: 
    - Score: unfreeze layer model  > freeze layer model
    - Score: allow to update weight model  > No update weight model
