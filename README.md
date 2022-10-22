@@ -21,51 +21,48 @@ by Capybarista Team
 - Alternative model (Balance between score and running time) = Yolov5l - Weight True Freeze 10
 
 # Introduction:
-- Object detection: Object detection is a computer vision technique that allows us to identify and locate objects in an image or video. 
-With this kind of identification and localization, object detection can be used to count objects in a scene and determine and track their precise locations, 
-all while accurately labeling them. The comparison between image classification, object detection, and instance segmentation is shown below.
+- Object detection is a computer vision technique that allows us to recognize and locate objects in images or videos. Object detection can be used to count objects in a scene and determine and track their precise locations, all while accurately labeling them, using this type of identification and localization. Below is a comparison of image classification, object detection, and instance segmentation.
 
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/NattapongTH/DADS7202_project_2/blob/main/pic/Picture1.png"> </span>
 
 from: Standford University 2016 winter lectures CS231n Fei-Fei Li & Andrej Karpathy & Justin Johnson
 
-- YOLOv5: YOLO an acronym for 'You only look once, is an object detection algorithm that divides images into a grid system. 
-Each cell in the grid is responsible for detecting objects within itself. YOLO is one of the most famous object detection algorithms due to its speed and accuracy.
+- YOLOv5: YOLO, which stands for "You Only Look Once," is an object detection algorithm that divides images into grids. Each grid cell is in charge of detecting objects within itself. Because of its speed and accuracy, YOLO is one of the most well-known object detection algorithms.
 
 Link for more detail: https://docs.ultralytics.com/ , https://github.com/ultralytics/yolov5 , https://pypi.org/project/yolov5/
 
-- roboflow: Roboflow is a computer vision platform that allows users to build computer vision models faster and more accurately through the provision of better data collection, preprocessing, 
-and model training techniques. Roboflow allows users to upload custom datasets, draw annotations, modify image orientations, resize images, modify image contrast and perform data augmentation. 
-It can also be used to train models.
+- Roboflow is a computer vision platform that enables users to build computer vision models faster and more accurately by providing improved data collection, preprocessing, and model training techniques. Roboflow allows users to upload custom datasets, draw annotations, change image orientations, resize images, change image contrast, and perform data augmentation. It can also be used to train models.
 
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/NattapongTH/DADS7202_project_2/blob/main/pic/roboflow.jpg"> </span>
 
-Image augmentation is an efficacious technique when we don’t have an ample amount of data for training a deep learning model. 
-Our team do Image augmentation with roboflow (due to time limitation, we set criteria of image augmentation as default of roboflow). Following figure is image augmentation options in roboflow.
+Image augmentation is an efficacious technique when we don’t have an ample amount of data for training a deep learning model. Our team uses Roboflow to enhance images (due to time limitation, we set criteria of image augmentation as default of Roboflow). The image augmentation options in Roboflow are depicted in the figure below.
 
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/NattapongTH/DADS7202_project_2/blob/main/pic/augmentation-options.png"> </span>
      
-Step of roboflow for One Piece Character Detection Project
-1. Upload photo to roboflow
-2. Label One Piece Character in all photos.
-3. Image preprocessing & Image augmentation
-4. Train.
-5. Deploy.
+Step of Roboflow for One Piece Character Detection Project
+1.	Upload photo into Roboflow
+2.	Label One Piece Character in all of the photos in the datasets.
+3.	Image preprocessing & Image augmentation
+4.	Train model.
+5.	Deploy.
+
 
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/NattapongTH/DADS7202_project_2/blob/main/pic/roboflow%20step.png"> </span>
 
-Image source and detail of roboflow tutorial --> https://blog.streamlit.io/how-to-use-roboflow-and-streamlit-to-visualize-object-detection-output/
+Image source and detail of Roboflow tutorial --> https://blog.streamlit.io/how-to-use-roboflow-and-streamlit-to-visualize-object-detection-output/
 
 # Our project in roboflow:
-- Project Link: https://app.roboflow.com/dl-yjboe/dads7202_hw2
-- Total image = 1182 pictures (Number of photos for each character shown below. Some pictures have multi-character)
-- Number of photos after image augmentation = 11232
-- Train-Test Split = 70 : 20 : 10 --> After Image augmentation, Train : Validation : Test : 87% : 8% : 5%
+Our Roboflow project is as follows:
+- Project URL: https://app.roboflow.com/dl-yjboe/dads7202 hw2
+- Total number of images = 1182 (The number of photos for each character is listed below.) Some images have multiple characters)
+- Total number of photos after image augmentation = 11232
+- Train-Test Split = 70:20:10, After Image Augmentation: Train : Validation : Test : 87% : 8% : 5%
 - Other settings are shown below
+
 
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/NattapongTH/DADS7202_project_2/blob/main/pic/Number%20of%20character.jpg"> </span>
@@ -74,12 +71,12 @@ Image source and detail of roboflow tutorial --> https://blog.streamlit.io/how-t
 
 
 # roboflow's outcome:
-- mAP for Train / Validation /Test of all character  = 71% / 68% / 70%
+- mAP for Train / Validation / Test of all characters  = 71% / 68% / 70%
 
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/NattapongTH/DADS7202_project_2/blob/main/pic/roboflow%20score.png"> </span>
 
-However, roboflow have tuning limitation. Next step, team will use jupyter in colab to adjust hyperparameter.
+However, Roboflow have some tuning limitation. Next step, our team will use Jupyter in Colab to adjust some hyperparameters.
 
 ---------------------------------------------------
 
