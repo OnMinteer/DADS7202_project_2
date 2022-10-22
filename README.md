@@ -9,7 +9,7 @@ by Capybarista Team
 # Brief Result:
 
 - Model comparison with mAP@0.5 score and Running time
-   - roboflow (Default) - (0.7)
+   - roboflow - (0.7)
    - Yolov5l - Weight False Freeze False (0.709 / 5.36 hr)
    - Yolov5l - Weight True Freeze False (0.787 / 5.35 hr)
    - Yolov5l - Weight False Freeze True (0.002 / 2.42 hr)
@@ -95,6 +95,7 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
    - Yolov5s - Weight True Freeze True (Freeze all layers (except output layer) + Allow to update weight via pretrain step + Change to Yolov5s) (ยังไม่เสร็จ)
 
 # mAP@0.5 score from Jupyter-colab:
+   - mAP@0.5 = <ใส่ความหมาย>
    - Yolov5l - Weight False Freeze False = 0.709
 
 <p align="center" width="100%">
@@ -143,12 +144,12 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
 - Use more features of image augmentation (Cutout, Grayscale, ...)
 - Create standard of Labelling 
 - Comparison to other versions of YoloV5 (YoloV5m,  YoloV5x, ...)
--
+
 ---------------------------------------------------
 
 # Reference:
 - Yolov5: https://github.com/ultralytics/yolov5
-- C3 model: https://arxiv.org/abs/1812.04920
+
 
 
 ---------------------------------------------------
@@ -160,7 +161,6 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
 - สุกิจ วาณิชฤดี_6310422092 
 - อร มินเทียร์
 
--  
 - 6410414001 
 - 6410412007 
 - 6410412014 
