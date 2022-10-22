@@ -141,6 +141,13 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
    - Running time: unfreeze layer model  > freeze layer model
    - Running time: allow to update weight model  ~ No update weight model
 
+From the six training models, we can summarize as follows;
+
+In terms of mAP@0.5 score, the model with the best mAP@0.5 score is model number 2, which is an unfreeze model that uses the weight from the pre-train model. When compared to model number 1, which is an unfreeze model that does not use the weight from the pre-train model, the mAP@0.5 result is significantly different even though the training time used is not significantly different.
+
+In terms of training time, although model number 5 and model number 1 where the mAP@0.5 score are not significantly different, however the training time of model number 5 is significantly less than model number 1.
+
+Furthermore, models 3 and 4, which are trained by freezing the entire model except the inference layers, produce irrelevant results because the Head and Neck sections, which are not part of Feature Extraction, do not change the back propagation in relation to the prediction in accordance with the new dataset.
 
 # Next step:
 - Add number of photos
@@ -170,9 +177,7 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
 - พัชรพฤกษ์ วัฒนางกูร
 - Nattapong Thanngam_6310422089 
 - สุกิจ วาณิชฤดี_6310422092 
-- อร มินเทียร์
-
-- 6410414001 
+- On Minteer_6410414001 
 - 6410412007 
 
 <p align="center" width="100%">
