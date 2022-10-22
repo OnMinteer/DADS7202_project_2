@@ -84,8 +84,9 @@ However, roboflow have tuning limitation. Next step, team will use jupyter in co
 ---------------------------------------------------
 
 # Our project in jupyter-colab:
-- Project Link: https://colab.research.google.com/drive/1hfHihyPVFt18axpft3brB-uG-jAQ9OoM?usp=sharing#scrollTo=ii8qC1HDUzZ6
-มีของ yolov5s จะแยกหรือร่วม colab
+- Project Link: 
+   - https://colab.research.google.com/drive/1hfHihyPVFt18axpft3brB-uG-jAQ9OoM?usp=sharing#scrollTo=ii8qC1HDUzZ6
+   - มีของ yolov5s จะแยกหรือร่วม colab
 - 6 Comparison base on batch-size = 16 and 100 epochs (default)
    - Yolov5l - Weight False Freeze False (unfreeze layer + No update weight via pretrain step)
    - Yolov5l - Weight True Freeze False (unfreeze layer + Allow to update weight via pretrain step)
